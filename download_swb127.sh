@@ -17,8 +17,6 @@ cd $JAVA_DIR
 echo "Downloading SQLWorkbench Build 127..."
 curl -Os "$BASE_URL/$ZIP_FILE"
 
-exit
-
 if [[ -a $ZIP_FILE ]] ; then
     echo Download complete. Unzipping...
     unzip -q $ZIP_FILE 
